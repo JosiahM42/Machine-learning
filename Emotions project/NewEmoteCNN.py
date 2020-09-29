@@ -40,4 +40,4 @@ model.fit(training_set, test_set, batch_size=5, epochs=8, validation_split=0.5)
 
 
 
-#model.fit(training_set, test_set, batch_size=2, epochs=6, validation_split=0.5, callbacks=[tensor_board])
+model.fit(training_set, test_set, batch_size=2, epochs=6, validation_split=0.5, callbacks=[tensor_board])
